@@ -26,7 +26,7 @@
     "production": "run-p production:** server",
     "production:build": "cd client && npm run build",
     "server": "nodemon server/index.js",
-    "dev": "pm2 startOrReload ecosystem.config.js --env development",
+    "server:pm2": "pm2 startOrReload ecosystem.config.js --env development",
     "prod": "pm2 startOrReload prod-ecosystem.json --env production",
     "test": "concurrently --kil-others \"npm run start:app\" \"npm run server\""
   }

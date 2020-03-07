@@ -1,10 +1,14 @@
 ## How to Run
 
 ### Run server permenantly
-> npm run dev
+> npm run server:pm2
 
 ### Run client
-> npm run start:app   //  npm run start
+> npm run start:app
+
+### Disable server
+> pm2 list  
+> pm2 kill   //  pm2 delete <id> 
 
 Navigate to http://localhost:3000 
 
